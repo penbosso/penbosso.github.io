@@ -16,6 +16,8 @@ layout: default
     <section class="contact">
       <h3 class="contact-title">Contact me</h3>
       <ul>
+        {% if site.web %}
+          <li><a href="https://{{ site.web }}"><i class="fab fa-internet-explorer"></i></a></li>
         {% if site.social-twitter %}
           <li><a href="https://twitter.com/{{ site.social-twitter }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
         {% else %}
@@ -40,10 +42,11 @@ layout: default
           <li class="email"><a href="mailto:{{site.social-email}}"><i class="fa fa-envelope-o"></i></a></li>
         {% else %}
           <li class="email"><a href="mailto:example.david@blog.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
-        {% endif %}
+        {% endif %}<i class="fab fa-internet-explorer"></i>
       </ul>
     </section> <!-- End Section Contact -->
     <div class="copyright">
+      <p>Web:<a></a></p>
       <p>{{site.time | date: '%Y'}} &copy; {{site.author}}</p>
     </div>
   </footer> <!-- End Footer -->
