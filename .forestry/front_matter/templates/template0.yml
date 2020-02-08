@@ -33,5 +33,3 @@ fields:
       format: markdown
   label: Text
   hidden: false
-pages:
-- _posts/an-illegal-activity-detection-system-using-deep-learning.html
