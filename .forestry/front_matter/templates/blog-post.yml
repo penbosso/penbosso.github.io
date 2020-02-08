@@ -23,6 +23,3 @@ fields:
 - type: list
   name: tags
   label: tags
-pages:
-- _posts/an-illegal-activity-detection-system-using-deep-learning-1.html
-- _posts/now-let-s-understand-why-we-need-data-science.md
