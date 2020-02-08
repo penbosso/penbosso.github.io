@@ -1,6 +1,6 @@
 ---
 label: template0
-hide_body: false
+hide_body: true
 fields:
 - type: text
   name: layout
@@ -23,13 +23,3 @@ fields:
 - type: list
   name: tags
   label: tags
-- name: text
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Text
-  hidden: false
