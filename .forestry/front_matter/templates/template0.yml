@@ -23,5 +23,15 @@ fields:
 - type: list
   name: tags
   label: tags
+- name: text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Text
+  hidden: false
 pages:
 - _posts/an-illegal-activity-detection-system-using-deep-learning.html
