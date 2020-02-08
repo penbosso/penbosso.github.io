@@ -1,7 +1,7 @@
 ---
 layout: Let’s Understand Why We Need Data Science
 title: Now Let’s Understand Why We Need Data Science
-date: 2020-02-08 00:00:00 +0000
+date: 2020-02-08T00:00:00.000+00:00
 description: Let’s Understand Why We Need Data Science Let’s Understand Why We Need
   Data Science
 img: "/Flow-of-unstructured-data.png"
