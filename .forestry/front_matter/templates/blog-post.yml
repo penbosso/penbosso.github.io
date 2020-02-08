@@ -23,3 +23,5 @@ fields:
 - type: list
   name: tags
   label: tags
+pages:
+- _posts/let-s-understand-why-we-need-data-science.md
