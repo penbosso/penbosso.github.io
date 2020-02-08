@@ -23,3 +23,5 @@ fields:
 - type: list
   name: tags
   label: tags
+pages:
+- _posts/an-illegal-activity-detection-system-using-deep-learning.html
